@@ -7,7 +7,7 @@ using namespace std;
 
 class Student:public User {
 private:
-    int id;
+    string id;
     string UserName;
     string Password;
     vector<string> enrolledCourses;
